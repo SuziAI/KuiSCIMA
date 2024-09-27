@@ -13,9 +13,30 @@ The annotation tool used for viewing, editing and exporting from the KuiSCIMA da
 [https://github.com/SuziAI/gui-tools](https://github.com/SuziAI/gui-tools).
 Currently, the version of `gui-tools` needed is tagged as `v2.0`.
   
-## How to Cite  
-  TBD
+## How to Cite
+
+Please cite the software using the paper
+[The KuiSCIMA Dataset for Optical Music Recognition of Ancient Chinese Suzipu Notation](https://link.springer.com/chapter/10.1007/978-3-031-70552-6_3)
+where the KuiSCIMA dataset was presented the first time:
+
+```
+@InProceedings{RepoluskIcdar2024,
+  author={Repolusk, Tristan and Veas, Eduardo},
+  editor={Barney Smith, Elisa H. and Liwicki, Marcus and Peng, Liangrui},
+  title={The KuiSCIMA Dataset for Optical Music Recognition of Ancient Chinese Suzipu Notation},
+  booktitle={Document Analysis and Recognition - ICDAR 2024},
+  year={2024},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={38--54},
+  doi={10.1007/978-3-031-70552-6_3}
+}
+```
 
 ## Annotation Remarks
 See the [annotation remarks](annotation_remarks.pdf) for additional comments on annotations of unclear notation
 instances in KuiSCIMA.
+
+## Content List
+See the [content list](kuiscima_contents.pdf) for a complete listing of all the contents in KuiSCIMA.
+
