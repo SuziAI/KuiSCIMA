@@ -15,9 +15,41 @@ Currently, the version of `gui-tools` needed is tagged as `v2.1`.
   
 ## How to Cite
 
-Please cite the corpus using the paper
+KuiSCIMA `v2.0` is an updated and expanded version of KuiSCIMA `v1.0`. It contains not only the 17 *suzipu* pieces,
+but all 109 pieces of *Baishidaoren Gequ*, including *lülüpu*, and *jianzipu* musical notations. For all new work, please
+cite KuiSCIMA `v2.0`:
+
+[KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ](https://doi.org/10.48550/arXiv.2507.18741) (currently only available as preprint)
+
+```
+@misc{RepoluskIcdar2025,
+  author       = {Repolusk, Tristan and Veas, Eduardo},
+  title        = {KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ},
+  note         = {Accepted for publication at ICDAR 2025 (in press)},
+  year         = {2025},
+  eprint       = {arXiv:2507.18741},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CV},           
+  url          = {https://arxiv.org/abs/2507.18741}
+}
+```
+
+[comment]: <> ( ``` )
+[comment]: <> ( @InProceedings{RepoluskIcdar2025, )
+[comment]: <> (   author={Repolusk, Tristan and Veas, Eduardo}, )
+[comment]: <> (   editor={Yin, Xu-Cheng and Karatzas, Dimosthenis and Lopresti, Daniel}, )
+[comment]: <> (   title={KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ}, )
+[comment]: <> (   booktitle={Document Analysis and Recognition - ICDAR 2024}, )
+[comment]: <> (   year={2025}, )
+[comment]: <> (   publisher={Springer Nature Switzerland}, )
+[comment]: <> (   address={Cham}, )
+[comment]: <> (   pages={xx--yy}, )
+[comment]: <> (   doi={TODO} )
+[comment]: <> ( } )
+[comment]: <> ( ``` )
+
+KuiSCIMA `v1.0` should only be cited if you refer to that specific version:
 [The KuiSCIMA Dataset for Optical Music Recognition of Ancient Chinese Suzipu Notation](https://link.springer.com/chapter/10.1007/978-3-031-70552-6_3)
-where the KuiSCIMA dataset was presented the first time:
 
 ```
 @InProceedings{RepoluskIcdar2024,
