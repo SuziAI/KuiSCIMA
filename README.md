@@ -11,11 +11,11 @@ musical contents with their positions.
 ## Annotation Tool
 The annotation tool used for viewing, editing and exporting from the KuiSCIMA dataset is available under
 [https://github.com/SuziAI/gui-tools](https://github.com/SuziAI/gui-tools).
-Currently, the version of `gui-tools` needed is tagged as `v2.0`.
+Currently, the version of `gui-tools` needed is tagged as `v2.1`.
   
 ## How to Cite
 
-Please cite the software using the paper
+Please cite the corpus using the paper
 [The KuiSCIMA Dataset for Optical Music Recognition of Ancient Chinese Suzipu Notation](https://link.springer.com/chapter/10.1007/978-3-031-70552-6_3)
 where the KuiSCIMA dataset was presented the first time:
 
@@ -33,10 +33,17 @@ where the KuiSCIMA dataset was presented the first time:
 }
 ```
 
-## Annotation Remarks
-See the [annotation remarks](annotation_remarks.pdf) for additional comments on annotations of unclear notation
+## Documentation
+For the details of what editions of *Baishidaoren Gequ* are contained in KuiSCIMA, preprocessing, dataset composition
+etc., refer to the [chapter in my dissertation](kuiscima_documentation.pdf). See the [annotation remarks](annotation_remarks.pdf) for additional comments on annotations of unclear notation
 instances in KuiSCIMA.
 
 ## Content List
 See the [content list](kuiscima_contents.pdf) for a complete listing of all the contents in KuiSCIMA.
+
+## Artificial Dataset
+In addition, the folder `artificial_suzipu_dataset` contains 36 handwritten (by me) instances of all 77 *suzipu* classes,
+even the ones that do not occur in the original *Baishidaoren Gequ*. This data is not yet used, since all my attempts to
+train models with this artificial data included resulted in worse overall performance.
+
 
