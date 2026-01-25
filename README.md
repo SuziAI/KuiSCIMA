@@ -23,34 +23,21 @@ KuiSCIMA `v2.0` is an updated and expanded version of KuiSCIMA `v1.0`. It contai
 but all 109 pieces of *Baishidaoren Gequ*, including *lülüpu*, and *jianzipu* musical notations. For all new work, please
 cite KuiSCIMA `v2.0`:
 
-[KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ](https://doi.org/10.48550/arXiv.2507.18741) (currently only available as preprint)
+[KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ](https://doi.org/10.48550/arXiv.2507.18741) (freely available as preprint).
 
 ```
-@misc{RepoluskIcdar2025,
-  author       = {Repolusk, Tristan and Veas, Eduardo},
-  title        = {KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ},
-  note         = {Accepted for publication at ICDAR 2025 (in press)},
-  year         = {2025},
-  eprint       = {arXiv:2507.18741},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CV},           
-  url          = {https://arxiv.org/abs/2507.18741}
+@InProceedings{RepoluskIcdar2025,
+  author={Repolusk, Tristan and Veas, Eduardo},
+  editor={Yin, Xu-Cheng and Karatzas, Dimosthenis and Lopresti, Daniel},
+  title={KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ},
+  booktitle={Document Analysis and Recognition - ICDAR 2025},
+  year={2025},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={116--132},
+  doi={10.1007/978-3-032-04630-7_7}
 }
 ```
-
-[comment]: <> ( ``` )
-[comment]: <> ( @InProceedings{RepoluskIcdar2025, )
-[comment]: <> (   author={Repolusk, Tristan and Veas, Eduardo}, )
-[comment]: <> (   editor={Yin, Xu-Cheng and Karatzas, Dimosthenis and Lopresti, Daniel}, )
-[comment]: <> (   title={KuiSCIMA v2.0: Improved Baselines, Calibration, and Cross-Notation Generalization for Historical Chinese Music Notations in Jiang Kui's Baishidaoren Gequ}, )
-[comment]: <> (   booktitle={Document Analysis and Recognition - ICDAR 2024}, )
-[comment]: <> (   year={2025}, )
-[comment]: <> (   publisher={Springer Nature Switzerland}, )
-[comment]: <> (   address={Cham}, )
-[comment]: <> (   pages={xx--yy}, )
-[comment]: <> (   doi={TODO} )
-[comment]: <> ( } )
-[comment]: <> ( ``` )
 
 KuiSCIMA `v1.0` should only be cited if you refer to that specific version:
 [The KuiSCIMA Dataset for Optical Music Recognition of Ancient Chinese Suzipu Notation](https://link.springer.com/chapter/10.1007/978-3-031-70552-6_3)
